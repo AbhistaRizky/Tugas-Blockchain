@@ -1,0 +1,142 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "safeAdd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "safeDiv",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "safeMul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "safeSub",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyCoin.sol": "SafeMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyCoin.sol": {
+			"keccak256": "0x24abd03db4458cf553f22ccfdddf1a585d953f0d3f3a4c74b22ffd185f6a06c6",
+			"urls": [
+				"bzz-raw://6a954c360c9ded26955e060e124ca08e7994d42b5f821f4d57cc1b1af5228a05",
+				"dweb:/ipfs/QmeGYsq26Bhp1NDtDzBa7fErzi44idgtJx2xoxsN2DYkgk"
+			]
+		}
+	},
+	"version": 1
+}
